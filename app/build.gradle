@@ -53,13 +53,15 @@ android {
             dimension "environment"
             buildConfigField "String", 'BASE_URL', "\"http://gateway.marvel.com/v1/public/\""
             buildConfigField "String", 'PUBLIC_KEY', "\"9354b6b9e63ffec91483e5638401e6e5\""
-            buildConfigField "String", 'PRIVATE_KEY', "\"eca2c416ff6f1d8a292d2d5a819e07036096ade9\""
+            buildConfigField "String", 'TS', "\"tsexamplemarvelapp\""
+            buildConfigField "String", 'HASH', "\"0e1b42655a37cda15f3b4d6130e99e26\""
         }
         prod {
             dimension "environment"
             buildConfigField "String", 'BASE_URL', "\"http://gateway.marvel.com/v1/public/\""
             buildConfigField "String", 'PUBLIC_KEY', "\"9354b6b9e63ffec91483e5638401e6e5\""
-            buildConfigField "String", 'PRIVATE_KEY', "\"eca2c416ff6f1d8a292d2d5a819e07036096ade9\""
+            buildConfigField "String", 'TS', "\"tsexamplemarvelapp\""
+            buildConfigField "String", 'HASH', "\"0e1b42655a37cda15f3b4d6130e99e26\""
         }
     }
 }
