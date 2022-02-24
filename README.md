@@ -7,5 +7,5 @@ Esta aplicación muestra un listado de los personajes de Marvel y su detalle con
    * Kotlin
    * ViewModel
    * MVVM
-   * Retrofit and Flow
+   * Retrofit y Flow
    * Coil
